@@ -11,10 +11,38 @@
 	<link href="css/header.css" rel="stylesheet">
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="navbar-wrapper">
 		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Brian Lichliter</a>
+			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Brian Lichliter</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Portfolio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">Projects</li>
+									<li><a href="#">Arrow</a></li>
+									<li><a href="#">Pass</a></li>
+									<li><a href="#">Portfolio Manager</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="http://b-lichliter.tumblr.com/" target="_blank">Blog</a></li>
+							<li><a href="https://github.com/BrianLichliter" target="_blank">Git</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -46,40 +74,40 @@
 							<div class = "row">
 								<div class = "col-md-3">
 									<div class = "well">
-										<p id = "description">Project 1</p>
+										<h5 id = "description">Arrow</h5>
+									<!-- Button trigger modal -->
+									<center><button class="btn btn-primary" data-toggle="modal" data-target="#userObservation">
+										Video
+									</button></center>
+										<div class="modal fade" id="userObservation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										    <div class="modal-dialog">
+										        <div class="modal-content">
+										            <div class="modal-header">
+										                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										                    <h4 class="modal-title" id="myModalLabel">Arrow: User Observation</h4>
+										            </div>
+										            <div class="modal-body">
+										                <center><iframe width="512" height="288" src="http://www.youtube.com/embed/64qdaa_7AOw?rel=0" frameborder="0" allowfullscreen></iframe></center>
+										            </div>
+										        </div><!-- /.modal-content -->
+										    </div><!-- /.modal-dialog -->
+										</div><!-- /.modal -->   
 									</div>
 								</div>
 								<div class = "col-md-9">
 									<div class = "row">
 										<div class = "col-md-4">
-											<center>Picture 1</center>
+											<div class = "well">
+												<p>The client wanted a device to aid him in the retrieval of objects from underneath furniture. When playing with his puppy, often times tennis balls would roll underneath the coach or dressers and retrieving them was difficult.</p>
+											</div>
 										</div>
 										<div class = "col-md-4">
-											<center>Picture 2</center>
+											<center><p>The client would lie flat on the ground and use a yard stick to retrieve the tennis balls.</p></center>
+											<img src = "img/userObservationOne.jpg" class = "thumbnail">
 										</div>
 										<div class = "col-md-4">
-											<center>Picture 3</center>
-										</div>
-									</div>
-								</div>
-							</div>
-							<br>
-							<div class = "row">
-								<div class = "col-md-3">
-									<div class = "well">
-										<p id = "description">Project 2</p>
-									</div>
-								</div>
-								<div class = "col-md-9">
-									<div class = "row">
-										<div class = "col-md-4">
-											<center>Picture 1</center>
-										</div>
-										<div class = "col-md-4">
-											<center>Picture 2</center>
-										</div>
-										<div class = "col-md-4">
-											<center>Picture 3</center>
+											<center><p>Many pieces of furniture in the client's house had space for the tennis balls to roll under.</p></center>
+											<img src = "img/userObservationTwo.jpg" class = "thumbnail">
 										</div>
 									</div>
 								</div>
@@ -97,8 +125,8 @@
 							</div>
 							<div class = "row">
 								<div class = "col-md-3">
-									<div class = "well">
-										<p id="description">Project 1</p>
+									<div class = "well well-lg">
+										<h5 id="description">Arrow</h5>
 									</div>
 								</div>
 								<div class = "col-md-9">
@@ -117,19 +145,7 @@
 									</div>
 								</div>
 							</div>
-							<br>
-							<div class = "row">
-								<div class = "col-md-3">
-									<div class = "well">
-										<p id="description">Project 2</p>
-									</div>
-								</div>
-								<div class = "col-md-9">
-									<center>Picture 1</center>
-								</div>
-							</div>
 						</div>
-
 						<div class="tab-pane fade" id = "Prototyping">
 							<br>
 							<div class = "row">
@@ -142,8 +158,8 @@
 							</div>
 							<div class = "row">
 								<div class = "col-md-3">
-									<div class = "well">
-										<p id="description">Arrow</p>
+									<div class = "well well-lg">
+										<h5 id="description">Arrow</h5>
 									</div>
 								</div>
 								<div class = "col-md-9">
@@ -154,25 +170,14 @@
 											<img class = "thumbnail" src = "img/prototypeOne.jpg">
 										</div>
 										<div class = "col-md-4">
-											<center><p>Front view of the retrieval section of the Arrow</p></center>
+											<center><p>Front view of the retrieval section of the Arrow.</p></center>
 											<img class = "thumbnail" src = "img/finalOne.jpg">
 										</div>
 										<div class = "col-md-4">
-											<center><p>The pivot of the Arrow to allow for easy use and storage</p></center>
+											<center><p>The pivot of the Arrow to allow for easy use and storage.</p></center>
 											<img class = "thumbnail" src = "img/prototypeTwo.jpg">
 										</div>
 									</div>	
-								</div>
-							</div>
-							<br>
-							<div class = "row">
-								<div class = "col-md-3">
-									<div class = "well">
-										<p id="description">Project 2</p>
-									</div>
-								</div>
-								<div class = "col-md-9">
-									<center>Picture 1</center>
 								</div>
 							</div>
 						</div>
@@ -189,19 +194,19 @@
 							<div class = "row">
 								<div class = "col-md-3">
 									<div class = "well">
-										<p id = "description">Arrow</p>
-									</div>
+										<h5 id = "description">Arrow</h5>
 									<!-- Button trigger modal -->
-									<center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+									<cener><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
 										Presentation Slides
-									</button></center>
+									</button></cener>
+									</div>
 									<!-- Modal -->
 									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 										<div class="modal-dialog">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-													<h4 class="modal-title" id="myModalLabel">ARROW: A Rapid Retriever on Wheels</h4>
+													<h4 class="modal-title" id="myModalLabel">Arrow: A Rapid Retriever on Wheels</h4>
 												</div>
 												<div class="modal-body">
 													<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -315,27 +320,6 @@
 										<div class = "col-md-4">
 											<img class = "thumbnail" src = "img/slideFour.jpg">		
 										</div>
-									</div>
-								</div>
-							</div>
-							<br>
-							<div class = "row">
-								<div class = "col-md-3">
-									<div class = "well">
-										<p id = "description">Project 2</p>
-									</div>
-								</div>
-								<div class = "col-md-9">
-									<div class = "row">
-										<div class = "col-md-4">
-											<center>Picture 1</center>
-										</div>
-										<div class = "col-md-4">
-											<center>Picture 2</center>
-										</div>
-										<div class = "col-md-4">
-											<center>Picture 3</center>
-										</div>		
 									</div>
 								</div>
 							</div>
