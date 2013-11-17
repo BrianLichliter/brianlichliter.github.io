@@ -25,12 +25,12 @@
 						<a class="navbar-brand" href="#">Brian Lichliter</a>
 					</div>
 					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Portfolio</a></li>
+						<ul id = "insidepagenav" class="nav navbar-nav">
+							<li class="active"><a href="#design">Design Portfolio</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Arrow</a></li>
+								<ul id = "insidepagenav" class="dropdown-menu">
+									<li><a href="#arrow">Arrow: A Rapid Retriever on Wheels</a></li>
 									<li><a href="#">Pass</a></li>
 									<li><a href="#">Portfolio Manager</a></li>
 								</ul>
@@ -45,10 +45,10 @@
 			</div>
 		</div>
 	</div>
-	<center><img class = "home" src="img/header.jpg"></center>
-	<h1 id = "description">Engineering Design Portfolio</h1>
-	<br>
-	<div class="container">
+	<center><img id = "design" class = "home" src="img/header.jpg"></center>
+	<center><img id = "arrow" class = "home" src = "img/arrowHead.jpg"></center>
+	<div class="container">   
+		<center><h2>Arrow: A Rapid Retriever on Wheels</h2></center>
 		<div id = "tab">
 			<div class = "tabbable tabs">
 				<ul class = "nav nav-tabs">
@@ -79,17 +79,17 @@
 											Video
 										</button></center>
 										<div class="modal fade" id="userObservation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-										    <div class="modal-dialog">
-										        <div class="modal-content">
-										            <div class="modal-header">
-										                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-										                    <h4 class="modal-title" id="myModalLabel">Arrow: User Observation</h4>
-										            </div>
-										            <div class="modal-body">
-										                <center><iframe width="512" height="288" src="http://www.youtube.com/embed/64qdaa_7AOw?rel=0" frameborder="0" allowfullscreen></iframe></center>
-										            </div>
-										        </div><!-- /.modal-content -->
-										    </div><!-- /.modal-dialog -->
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+														<h4 class="modal-title" id="myModalLabel">Arrow: User Observation</h4>
+													</div>
+													<div class="modal-body">
+														<center><iframe width="512" height="288" src="http://www.youtube.com/embed/64qdaa_7AOw?rel=0" frameborder="0" allowfullscreen></iframe></center>
+													</div>
+												</div><!-- /.modal-content -->
+											</div><!-- /.modal-dialog -->
 										</div><!-- /.modal -->   
 									</div>
 								</div>
@@ -220,10 +220,10 @@
 								<div class = "col-md-3">
 									<div class = "well">
 										<h5 id = "description">Arrow</h5>
-									<!-- Button trigger modal -->
-									<center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-										Presentation Slides
-									</button></center>
+										<!-- Button trigger modal -->
+										<center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+											Presentation Slides
+										</button></center>
 									</div>
 									<!-- Modal -->
 									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
