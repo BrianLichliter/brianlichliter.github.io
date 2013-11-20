@@ -6,12 +6,13 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
   if (target.length) {
     $('html,body').animate({
-      scrollTop: (target.offset().top - 50)
+      scrollTop: (target.offset().top - 80)
     }, 500);
     return false;
   }
 }
-}); 
+});
 
-
-
+$(document).ready(function(){
+    $("body").scrollspy({target: "#navbar-example", offset:80});
+});

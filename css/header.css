@@ -2,6 +2,10 @@
 	text-align: center;
 }
 
+#left {
+	text-align: left;
+}
+
 #center {
 	text-align: center;
 }
@@ -10,20 +14,21 @@
 	text-align: right;
 }
 
+#arrow {
+	text-align: center;
+}
+
 img.home {
 width:100%;
-background:url(img/header.jpg) 0 0;
 }
 
 body {
 	padding-top: 50px;
-	padding-bottom: 200px;
 }
 
-.modal-dialog {
-	width:600px;
+.caret {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000000;
 }
 
-.thumbnail {
-	margin-bottom:6px;
-}
