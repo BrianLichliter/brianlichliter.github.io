@@ -19,7 +19,7 @@
 }
 
 img.home {
-width:100%;
+	width:100%;
 }
 
 body {
@@ -31,4 +31,3 @@ body {
     border-right: 8px solid transparent;
     border-top: 8px solid #000000;
 }
-
