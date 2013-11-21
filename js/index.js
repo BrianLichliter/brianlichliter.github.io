@@ -13,6 +13,4 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 }
 });
 
-$(document).ready(function(){
-    $("body").scrollspy({target: "#navbar-example", offset:80});
-});
+$("body").scrollspy({target: "#navbar", offset:80});
