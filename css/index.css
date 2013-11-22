@@ -1,0 +1,44 @@
+body {
+	padding-top: 75px;
+	background-color:#222222
+}
+
+#sidebar {
+	padding-bottom: 175px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+#mainbar {
+	padding-bottom: 150px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+#mainbar p {
+	color: white;
+}
+
+#mainbar h2 {
+	color: white;
+}
+
+#sidebar h3 {
+	color: white;
+}
+
+#header h1 {
+	color: white;
+}
+
+#center {
+	text-align: center;
+}
+
+#right {
+	text-align: right;
+}

@@ -1,0 +1,33 @@
+.header {
+	text-align: center;
+}
+
+#left {
+	text-align: left;
+}
+
+#center {
+	text-align: center;
+}
+
+#right {
+	text-align: right;
+}
+
+#arrow {
+	text-align: center;
+}
+
+img.home {
+	width:100%;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.caret {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000000;
+}
