@@ -1,16 +1,18 @@
 body {
-	padding-top: 75px;
+	padding-top: 51px;
 	padding-bottom: 100px;
 	background-size: 100%;
 	background-image: url("http://farm6.staticflickr.com/5346/8863284031_5e6542835c_k.jpg");
 }
 
 #header {
+	text-align: center;
+	margin-top: 15px;
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	background-color:rgba(34,34,34,0.9)
+	background-color:rgba(34,34,34,0.85)
 }
 
 #mainbar {
@@ -19,7 +21,7 @@ body {
 	border-right: 1px solid #eee;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	background-color:rgba(34,34,34,0.9)
+	background-color:rgba(34,34,34,0.85)
 }
 
 #mainbar p {
@@ -32,12 +34,4 @@ body {
 
 #header h1 {
 	color: white;
-}
-
-#center {
-	text-align: center;
-}
-
-#right {
-	text-align: right;
 }
