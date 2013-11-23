@@ -32,6 +32,10 @@ body {
 	color: white;
 }
 
+#mainbar i {
+	color: gray;
+}
+
 #header h1 {
 	color: white;
 }
