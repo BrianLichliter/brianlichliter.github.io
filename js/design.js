@@ -14,5 +14,5 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 });
 
 $(window).load(function() {
-	$("body").scrollspy({target: "#navbar", offset:80});
+	$("body").scrollspy({target: "#navbar", offset:90});
 });
