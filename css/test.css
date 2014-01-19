@@ -1,27 +1,7 @@
-#profile {
-	height: 300px;
-}
-
-#audrey {
-	background-color:rgba(34,34,34,1)
-}
-
-#audrey h1 {
-	color: white;
-}
-
-#header {
-	padding-top: 0px;
-}
-
-#picture2 {
-	padding-top: 150px;
-}
-
-#negative {
-	padding-top: -50px;
+#center {
+	text-align: center;
 }
 
 body {
-	background-color: #659EC7;
+	padding-top: 100px;
 }
