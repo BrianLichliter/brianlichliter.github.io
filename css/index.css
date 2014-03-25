@@ -7,7 +7,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
-a, h1, h2 {
+.heading, a, h1, h2 {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -28,6 +28,9 @@ i {
 	padding-top: 5%;
 	display: block;
 	margin: 0 auto;
+	-webkit-filter: brightness(1);
+	-ms-filter: brightness(1);
+	filter: brightness(1);
 }
 
 #background {
@@ -106,6 +109,16 @@ i {
 	font-size: 300%;
 	text-decoration: none !important;
 }
+
+.heading {
+	font-size: 300%;
+}
+
+
+
+
+
+
 
 .navbar-custom {
   background-color: #1a3109;
