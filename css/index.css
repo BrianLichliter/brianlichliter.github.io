@@ -40,9 +40,9 @@ i {
 	position: fixed;
 	z-index: -1;
 	width: 100%;
-	-webkit-filter: blur(6px) brightness(1.1);
-	-ms-filter: blur(6px) brightness(1.1);
-	filter: blur(6px) brightness(1.1);
+	-webkit-filter: blur(4px) brightness(1.1);
+	-ms-filter: blur(4px) brightness(1.1);
+	filter: blur(4px) brightness(1.1);
 }
 
 #email {
