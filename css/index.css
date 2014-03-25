@@ -3,7 +3,7 @@ body {
 }
 
 p {
-	font-size: 125%;
+	font-size: 135%;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -18,7 +18,7 @@ i {
 
 #navbar {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 110%;
+	font-size: 115%;
 }
 
 #profile {
@@ -28,9 +28,12 @@ i {
 	padding-top: 5%;
 	display: block;
 	margin: 0 auto;
-	-webkit-filter: brightness(1);
-	-ms-filter: brightness(1);
-	filter: brightness(1);
+}
+
+#profilefilter {
+	-webkit-filter: brightness(1.2);
+	-ms-filter: brightness(1.2);
+	filter: brightness(1.2);
 }
 
 #background {
