@@ -1,5 +1,5 @@
 $(window).load(function() {
-	$("body").scrollspy({target: "#navbar", offset:75});
+	$("body").scrollspy({target: "#navbar", offset:90});
 
 	$('ul#insidepagenav > li > a[href*=#]:not([href=#])').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
@@ -8,7 +8,7 @@ $(window).load(function() {
 			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 			if (target.length) {
 				$('html,body').animate({
-					scrollTop: (target.offset().top - 65)
+					scrollTop: (target.offset().top - 75)
 				}, 500);
 				return false;
 			}
@@ -26,7 +26,7 @@ $(window).load(function() {
 			}
 			else if (currentTop > height/2) {
 				$("#navbar").addClass("navbar-fixed-top");
-				$(".content").css("padding-top","65px");
+				$(".content").css("padding-top","60px");
 			}
 		}
 	);

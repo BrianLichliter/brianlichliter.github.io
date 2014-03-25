@@ -2,30 +2,22 @@ body {
 	background-color: black;
 }
 
-i {
-	color: gray;
-}
-
 p {
 	font-size: 125%;
 }
 
-#description {
-	padding-top: 5%;
+i {
+	color: grey;
+	font-size: 90%;
 }
 
 #profile {
 	border-radius: 50%;
-	height: 75%;
-	width: 75%;
+	height: 60%;
+	width: 60%;
+	padding-top: 5%;
 	display: block;
-}
-
-.divider {
-	background-color: black;
-	height: 1px;
-	margin-bottom: 5%;
-	margin-top: 5%;
+	margin: 0 auto;
 }
 
 #background {
@@ -35,6 +27,23 @@ p {
 	-webkit-filter: blur(8px);
 	-ms-filter: blur(8px);
 	filter: blur(8px);
+}
+
+#email {
+	font-size: 800%;
+	display: block;
+	margin: 0 auto;
+}
+
+#about {
+	padding-top: 2%;
+}
+
+#resumeicon {
+	height: 70%;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
 }
 
 #name {
@@ -57,7 +66,7 @@ p {
 	top: 50%;
 	background-color: rgb(235,235,235);
 	z-index: 0;
-	padding-bottom: 500px;
+	padding-bottom: 10%;
 
 	width: 100%;
 	margin-left: auto;
@@ -70,11 +79,23 @@ p {
 	margin: 0 auto 0 auto;
 }
 
-#rightCol {
+#col {
 	background-color: white;
-	padding-bottom: 4%;
+	padding-bottom: 3%;
+	margin-top: 5%;
 }
 
+#links {
+	margin-top: 20%;
+}
+
+.iconlink { 
+	margin: 0 auto; 
+	text-align: center; 
+	display: block;
+	font-size: 300%;
+	text-decoration: none !important;
+}
 
 .navbar-custom {
   background-color: #1a3109;
