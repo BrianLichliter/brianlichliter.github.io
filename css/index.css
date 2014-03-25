@@ -40,13 +40,13 @@ i {
 	position: fixed;
 	z-index: -1;
 	width: 100%;
-	-webkit-filter: blur(6px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);
+	-webkit-filter: blur(6px) brightness(1.1);
+	-ms-filter: blur(6px) brightness(1.1);
+	filter: blur(6px) brightness(1.1);
 }
 
 #email {
-	font-size: 800%;
+	font-size: 8em;
 	display: block;
 	margin: 0 auto;
 }
@@ -72,7 +72,7 @@ i {
 
 #nameText {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 900%;
+	font-size: 8em;
 	color: white;
 	margin-top: 3%;
 	background-color: rgba(0,0,0,.3);
