@@ -4,11 +4,21 @@ body {
 
 p {
 	font-size: 125%;
+	font-family: 'Raleway', sans-serif;
+}
+
+a, h1, h2 {
+	font-family: 'Raleway', sans-serif;
 }
 
 i {
 	color: grey;
 	font-size: 90%;
+}
+
+#navbar {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 110%;
 }
 
 #profile {
