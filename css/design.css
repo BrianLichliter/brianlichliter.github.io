@@ -18,29 +18,56 @@ img.home {
 	width:100%;
 }
 
-body {
-	padding-top: 45px;
-}
-
 .caret {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-top: 8px solid #000000;
 }
 
-#headercontainer {
-	position: relative;
+#headerimg {
+	position: fixed;
+	z-index: -1;
+	top: -30%;
+}
+
+#content {
+	position: absolute;
+	top: 50%;
+}
+
+#accordionPortfolio, #accordionPass, #accordionArrow {
+	margin-top: 0%;
+}
+
+#accordion {
+	margin-top: -1.55%;
+}
+
+#navbar {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 115%;
+}
+
+#headertext {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 8em;
+	color: white;
+	margin-top: 3%;
+	background-color: rgba(0,0,0,.3);
 }
 
 #header {
-	margin-top: 15px;
+	position: absolute;
+	top: 4%;
+	width: 100%;
 	text-align: center;
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-	border-top: 1px solid #eee;
-	border-bottom: 1px solid #eee;
-	background-color: rgba(34,34,34,0.85);
-    position: absolute;
+	z-index: 0;
+}
+
+#headerimg {
+	-webkit-filter: blur(4px) brightness(1);
+	-ms-filter: blur(4px) brightness(1.9);
+	filter: blur(4px) brightness(1.9);
 }
 
 #header h1 {

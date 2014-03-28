@@ -1,32 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title></title>
+	<title>Brian's Design Portfolio</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="test">
+	<meta name="description" content="Design Portfolio">
 	<meta name="author" content="Brian Lichliter">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link href="css/test.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class = "container">
-		<div class = "row">
-			<div class = "col-md-3">
-				<p id = "center">About</p>
+		<div class = "panel-group">
+		<!--THIS IS THE ARROW SECTION-->
+			<div class="panel panel-info" id = "accordionArrow">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<div id = "center">
+							<a data-toggle="collapse" data-parent="#accordionArrow" href="#collapseOne">
+								<h3 id = "arrow">
+									Arrow: A Rapid Retriever on Wheels 
+									<span class="caret"></span>
+								</h3>
+							</a>
+						</div>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="container">   
+							<div id = "tab">
+								<ul class = "nav nav-tabs nav-justified">
+									<li class = "active">
+										<a href="#DesignProblem" data-toggle="tab">Defining The Problem</a>
+									</li>
+									<li><a href="#InitialDesign" data-toggle="tab">Initial Design and Mock-ups</a></li>
+									<li><a href="#Prototyping" data-toggle="tab">Prototyping</a></li>
+									<li><a href="#FinalProduct" data-toggle="tab">Final Design and Presentation</a></li>
+								</ul>
+								<div id = "arrowTabs" class="tab-content">
+									<div class="tab-pane fade in active" id = "DesignProblem">						
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Recognizing the need is the primary condition for design."</p>
+													<small>Charles Eames</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Arrow</h5>
+													<!-- Button trigger modal -->
+													<div id = "center">
+														<button class="btn btn-primary" data-toggle="modal" data-target="#userObservation">
+															Video
+														</button>
+													</div>
+													<div class="modal fade" id="userObservation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+														<div class="modal-dialog">
+															<div class="modal-content">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+																	<h4 class="modal-title" id="myModalLabel">Arrow: User Observation</h4>
+																</div>
+																<div class="modal-body">
+																	<iframe class = "center" width="100%" height="368" src="http://www.youtube.com/embed/64qdaa_7AOw?rel=0" frameborder="0" allowfullscreen></iframe>
+																</div>
+															</div><!-- /.modal-content -->
+														</div><!-- /.modal-dialog -->
+													</div><!-- /.modal -->   
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<div class = "well">
+															<p id = "left">The client wanted a device to aid him in the retrieval of objects from underneath furniture. When playing with his puppy, often times tennis balls would roll underneath the coach or dressers and retrieval would become difficult.</p>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">The client would lie flat on the ground and use a yard stick to retrieve the tennis balls.</p>
+														<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/uoOne.jpg?raw=true"class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">Many pieces of furniture in the client's house had space for the tennis balls to roll under.</p>
+														<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/uoTwo.jpg?raw=true" class = "thumbnail img-responsive">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "InitialDesign">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Fail, Forward, Fast."</p>
+													<small>John Lake</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Arrow</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div = "row">
+													<div class = "col-md-4">
+														<p id = "center">Initial Mock-up</p>
+														<br>
+														<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/idOne.jpg?raw=true" class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<p id = "center">A closer look at the scissor portion of the design</p>
+														<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/idTwo.JPG?raw=true" class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<p id = "center">The control mechanism for the scissors of the device</p>
+														<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/idThree.JPG?raw=true" class = "thumbnail img-responsive">
+													</div>	
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "Prototyping">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+													<small>Steve Jobs</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Arrow</h5>
+												</div>
+												<p>A computer aided design of the prototype incorparating lessons learned from mock-ups and user testing</p>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<img class = "thumbnail img-responsive" src = "img/prototypeOne.jpg">
+													</div>
+													<div class = "col-md-4">
+														<p id = "center">A front view of the retrieval section of the Arrow</p>
+														<img class = "thumbnail img-responsive" src = "img/finalOne.jpg">
+													</div>
+													<div class = "col-md-4">
+														<p id = "center">The pivot of the device allowing for easy handling and storage</p>
+														<img class = "thumbnail img-responsive" src = "img/prototypeTwo.jpg">
+													</div>
+												</div>	
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "FinalProduct">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"The design is done when the problem goes away."</p>
+													<small>Jason Fried</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Arrow</h5>
+													<!-- Button trigger modal -->
+													<div id = "center">
+														<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+															Presentation Slides
+														</button>
+													</div>
+												</div>
+												<!-- Modal -->
+												<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+																<h4 class="modal-title" id="myModalLabel">Arrow: A Rapid Retriever on Wheels</h4>
+															</div>
+															<div class="modal-body">
+																<div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
+																	<!-- Indicators -->
+																	<ol class="carousel-indicators">
+																		<li data-target="#slide1" data-slide-to="0" class="active"></li>
+																		<li data-target="#slide2" data-slide-to="1"></li>
+																		<li data-target="#slide3" data-slide-to="2"></li>
+																		<li data-target="#slide2" data-slide-to="3"></li>
+																		<li data-target="#slide3" data-slide-to="4"></li>
+																		<li data-target="#slide2" data-slide-to="5"></li>
+																		<li data-target="#slide3" data-slide-to="6"></li>
+																		<li data-target="#slide2" data-slide-to="7"></li>
+																		<li data-target="#slide3" data-slide-to="8"></li>
+																		<li data-target="#slide2" data-slide-to="9"></li>
+																		<li data-target="#slide3" data-slide-to="10"></li>
+																		<li data-target="#slide2" data-slide-to="11"></li>
+																		<li data-target="#slide3" data-slide-to="12"></li>		
+																	</ol>
+																	<!-- Wrapper for slides -->
+																	<div class="carousel-inner">
+																		<div class="item active">
+																			<img src="img/slideOne.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideTwo.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideThree.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideFour.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideFive.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideSix.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideSeven.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideEight.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideNine.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideTen.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideEleven.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideTwelve.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																		<div class="item">
+																			<img src="img/slideThirteen.jpg">
+																			<div class="carousel-caption">
+																			</div>
+																		</div>
+																	</div>
+																	<!-- Controls -->
+																	<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+																		<span class="glyphicon glyphicon-chevron-left"></span>
+																	</a>
+																	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+																		<span class="glyphicon glyphicon-chevron-right"></span>
+																	</a>
+																</div>
+															</div><!-- /.modal-content -->
+														</div><!-- /.modal-dialog -->
+													</div><!-- /.modal -->
+												</div>														
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<div class = "well">
+															<p id = "left">Arrow (A Rapid Retriever on Wheels) is a device that is able to rescue items that get lost or forgotten under furniture. The Velcro aids in the gathering of tennis balls for those with canine companions.</p>
+														</div>			
+													</div>
+													<div class = "col-md-4">
+														<img class = "thumbnail img-responsive" src = "img/slideOne.jpg">		
+													</div>
+													<div class = "col-md-4">
+														<img class = "thumbnail img-responsive" src = "img/slideFour.jpg">		
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<img class = "home" src = "img/arrowHead.jpg">
 			</div>
-			<div class = "col-md-3">
-				<p id = "center">Work</p>
+		<!--THIS IS THE PASS SECTION-->
+			<div class="panel panel-info" id = "accordionPass">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<div id = "center">
+							<a data-toggle="collapse" data-parent="#accordionPass" href="#collapseTwo">
+								<h3 id = "pass">
+									Pass: Post-Stroke Anti-Scissoring System
+									<span class="caret"></span>
+								</h3>
+							</a>
+						</div>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="container">   
+							<div id = "tab">
+								<ul class = "nav nav-tabs nav-justified">
+									<li class = "active">
+										<a href="#DesignProblemPass" data-toggle="tab">Defining The Problem</a>
+									</li>
+									<li><a href="#InitialDesignPass" data-toggle="tab">Initial Design and Mock-ups</a></li>
+									<li><a href="#PrototypingPass" data-toggle="tab">Prototyping</a></li>
+									<li><a href="#FinalProductPass" data-toggle="tab">Final Design and Presentation</a></li>
+								</ul>
+								<div id = "arrowTabs" class="tab-content">
+									<div class="tab-pane fade in active" id = "DesignProblemPass">						
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Recognizing the need is the primary condition for design."</p>
+													<small>Charles Eames</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Pass</h5>
+													<!-- Button trigger modal -->
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<div class = "well">
+															<p id = "left">The client wanted a device to aid in the rehabiliation of stroke patients who were relearning to walk. A common side-effect of a stroke is the loss of certain muscle control which can often times lead to one walking with a "scissoring" type gait. In other words, the patient would cross their legs as they walked.</p>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">We worked with the Rehabilitation Institute of Chicago.</p>
+														<img src = "https://ric.concerro.com/images/ric_logo.jpg" class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">Before beginning to brainstorm and design, we met with the client to talk about the exact specifications of the device and find out more about the problem.</p>
+														<div id = "center">
+															<a href="https://www.dropbox.com/s/ylvxs4195sjpejm/Client%20Interview%20Summary.pdf" class="btn btn-primary" target = "_blank">Interview Summary</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "InitialDesignPass">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Fail, Forward, Fast."</p>
+													<small>John Lake</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Pass</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div = "row">
+													<div class = "col-md-4">
+														<h4 id = "center">Mock-up 1: Magnetic Repullsion</h4>
+														<p id = "left">Magnets repelled the legs from one another, increasing resistance as the legs got closer together.</p>
+														<img src = "img/pass/mockupOne.jpg" class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Mock-up 2: Telescoping Tubes</h4>
+														<p id = "left">Three connected tubes restricted motion in the undesired directions while allowing the user to move with a natural gait.</p>
+														<img src = "img/pass/mockupTwo.jpg" class = "thumbnail img-responsive">
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Mock-up 3: The Sliding <br> Belt</h4>
+														<p id = "left">A slider attached to a belt increased resistance as the attached leg moved away from its resting position.</p>
+														<img src = "img/pass/mockupThree.jpg" class = "thumbnail img-responsive">
+													</div>	
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "PrototypingPass">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+													<small>Steve Jobs</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Pass</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+													<p id = "left">An initial sketch of the prototype omitting the leg attachments</p>
+														<img class = "thumbnail img-responsive" src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/pass/Sketch.jpg?raw=true">
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">The telescoping tube section of the design</p>
+														<img class = "thumbnail img-responsive" src = "img/pass/prototypeOne.jpg">
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">The component responsible for limiting the user's degree of motion</p>
+														<img class = "thumbnail img-responsive" src = "img/pass/prototypeTwo.jpg">
+													</div>
+												</div>	
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "FinalProductPass">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"The design is done when the problem goes away."</p>
+													<small>Jason Fried</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Pass</h5>
+													<div id = "center">
+														<button class="btn btn-primary" data-toggle="modal" data-target="#PassPoster">
+															Presentation Poster
+														</button>
+													</div>
+												</div>
+												<div class="modal fade" id="PassPoster" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+																<h4 class="modal-title" id="myModalLabel">Pass: Presentation Poster</h4>
+															</div>
+															<div class="modal-body">
+																<img src = "https://github.com/BrianLichliter/brianlichliter.github.io/blob/master/img/pass/PASS.jpg?raw=true" class = "img-responsive">
+															</div>
+														</div><!-- /.modal-content -->
+													</div><!-- /.modal-dialog -->
+												</div><!-- /.modal -->   													
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<div class = "well">
+															<p id = "left">Pass (Post-Stoke Anti-Scissoring System) is a device that allows the user to walk with a natural gait while preventing unnatural movement patterns such as scissoring.</p>
+														</div>			
+													</div>
+													<div class = "col-md-4">
+														<img class = "thumbnail img-responsive" src = "img/pass/finaldesignOne.jpg">	
+													</div>
+													<div class = "col-md-4">
+														<img class = "thumbnail img-responsive" src = "img/pass/finaldesignThree.jpg">
+													</div>
+												</div>								
+												<div class = "row">
+													<img class = "thumbnail img-responsive" src = "img/pass/finaldesignTwo.jpg">	
+												</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<img class = "home" src = "img/pass/headerPass.jpg">
 			</div>
-			<div class = "col-md-3">
-				<p id = "center">Contact</p>
-			</div>
-			<div class = "col-md-3">
-				<p id = "center">Blog</p>
+		<!--THIS IS THE PORTFOLIO MANAGER SECTION-->
+			<div class="panel panel-info" id = "accordionPortfolio">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<div id = "center">
+							<a data-toggle="collapse" data-parent="#accordionPortfolio" href="#collapseThree">
+								<h3 id = "portfolio">
+									Portfolio Manager
+									<span class="caret"></span>
+								</h3>
+							</a>
+						</div>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="container">   
+							<div id = "tab">
+								<ul class = "nav nav-tabs nav-justified">
+									<li class = "active">
+										<a href="#DesignProblemPortfolio" data-toggle="tab">Defining The Problem</a>
+									</li>
+									<li><a href="#InitialDesignPortfolio" data-toggle="tab">Initial Design and Mock-ups</a></li>
+									<li><a href="#PrototypingPortfolio" data-toggle="tab">Prototyping</a></li>
+									<li><a href="#FinalProductPortfolio" data-toggle="tab">Final Design and Presentation</a></li>
+								</ul>
+								<div id = "arrowTabs" class="tab-content">
+									<div class="tab-pane fade in active" id = "DesignProblemPortfolio">						
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Recognizing the need is the primary condition for design."</p>
+													<small>Charles Eames</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Portfolio Manager</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<h4 id = "center">The Spec</h4>
+														<p id = "left">Some design challenges involve a client who has a very well-defined idea of what he wants. The Portfolio Manager was developed for a Databases course assignment.</p>
+														<div id = "center">
+															<a href="https://www.dropbox.com/s/3h86klqbqlkh3rx/portfolio%20manager.pdf" class = "btn btn-primary" target = "_blank">Portfolio Manager Assignment</a>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<div class = "well">
+															<p id = "left">Before beginning work on the project, a clear separation and definition must be achieved for the different levels of the application. The user facing level, the database that exists on the server portion of the application, and the level that connects the two.</p>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<p id = "left">Bootstrap was used to aid in the user facing design along with Perl and SQL for the middle and backend logic tiers respectively.</p>
+														<img src = "http://www.bootstraptutorials.com/wp-content/uploads/2013/01/Twitter-Bootstrap-Tutorials.png" class = "thumbnail img-responsive">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "InitialDesignPortfolio">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Fail, Forward, Fast."</p>
+													<small>John Lake</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Portfolio Manager</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div = "row">
+													<div class = "col-md-4">
+														<h4 id = "center">Front End: Storyboard</h4>
+														<p id = "left">Before coding up the front end of the website, one must have an idea of what the site will look and function like. The storyboard is a sketch that is as close to the final design as possible.</p>
+														<div id = "center">
+															<a href = "https://www.dropbox.com/s/157h4m9ak076vqq/ProjectB.storyboard.pdf" class = "btn btn-primary" target = "_blank">Storyboard</a>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Middle: Flowchart</h4>
+														<p id = "left">Underneath the front end website framework, the logic and flow of the functionality must be mapped out. The flowchart shows what links go where and the functionaliy of different pages.</p>
+														<div id = "center">
+															<a href = "https://www.dropbox.com/s/5zdo1blxbgr5t3e/flowchart.pdf" class = "btn btn-primary" target = "_blank">Flowchart</a>
+														</div>
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Back End: E/R Diagram</h4>
+														<p id = "left">Before implementing the database, theres needs to be an understanding about how data and data relations will be represented. The E/R diagram solidifies the understanding of how the database will represent the data.</p>
+														<div id = "center">
+															<a href = "https://www.dropbox.com/s/fn1gmbdhzpv88r2/ProjectB.ER.pdf" class = "btn btn-primary" target = "_blank">E/R Diagram</a>
+														</div>
+													</div>	
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "PrototypingPortfolio">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+													<small>Steve Jobs</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well well-lg">
+													<h5 id="center">Portfolio Manager</h5>
+												</div>
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<h4 id = "center">Front End: Website Mockup</h4>
+														<p id = "left">Once the storyboard was complete, a mockup of the website was made, complete with navigation and the general look and layout of the desired final product. The functionality of the website was slowly added once the mockup was done.</p>
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Middle: The Logic Teir</h4>
+														<p id = "left">The flowchart leads into the design and implmentation of the logic portion of the application. This section of the application was written in Perl and performed various tasks such as data computation and data retrieval given inputs from the user.</p>
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Back End: SQL Implementation</h4>
+														<p id = "left">The database's portion of the application was written using Oracle SQL. This defined data representation, data relations, and usages for the data. The SQL implementation mirrored the relations set at by the E/R diagram as closely as possible.</p>
+													</div>
+												</div>	
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id = "FinalProductPortfolio">
+										<br>
+										<div class = "row">
+											<div class = "col-md-8 col-md-offset-2">
+												<blockquote>
+													<p>"The design is done when the problem goes away."</p>
+													<small>Jason Fried</small>
+												</blockquote>
+											</div>
+										</div>
+										<div class = "row">
+											<div class = "col-md-3">
+												<div class = "well">
+													<h5 id = "center">Portfolio Manager</h5>
+													<div id = "center">
+														<a href = "http://murphy.wot.eecs.northwestern.edu/~bal859/portfolio/portfolio.pl" class = "btn btn-primary" target = "_blank">Website</a>
+													</div>
+												</div>												
+											</div>
+											<div class = "col-md-9">
+												<div class = "row">
+													<div class = "col-md-4">
+														<h4 id = "center">Integration</h4>
+														<p id = "left">Group coding requires the integration of various work from different members. We managed this using Github, a website that allows for easy version control and collabrative coding.</p>
+														<img src = "https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png" class = "img-responsive thumbnail">
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Testing</h4>
+														<p id = "left">Once the initial prototype is complete, testing needs to be done to in sure everything functions as expected and the users usage patterns are also as expected. This is an iterative process that requires a lot of tuning and testing.</p>
+													</div>
+													<div class = "col-md-4">
+														<h4 id = "center">Shipment</h4>
+														<p id = "left">In this case, shipment represented a complete portfolio of all the work done during the design process from beginning to the end along with the final working web application. Organization and documentation are key during the design process.</p>
+													</div>
+												</div>								
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<img class = "home" src = "img/portfolio/header.png">
 			</div>
 		</div>
-	</div>
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
