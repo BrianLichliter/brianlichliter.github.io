@@ -18,6 +18,14 @@ img.home {
 	width:100%;
 }
 
+.btn-custom {
+	color: white;
+}
+
+a, h1, h2, h3, h4, h5, p {
+	font-family: 'Raleway', sans-serif;
+}
+
 .caret {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
@@ -43,7 +51,7 @@ img.home {
 	margin-top: -1.55%;
 }
 
-#navbar {
+#navbar a{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 115%;
 }
