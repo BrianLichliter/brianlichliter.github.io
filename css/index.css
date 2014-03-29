@@ -25,6 +25,10 @@ i {
 	margin: 0 auto;
 }
 
+#space {
+	visibility: hidden;
+}
+
 #profilefilter {
 	-webkit-filter: brightness(1.2);
 	-ms-filter: brightness(1.2);
