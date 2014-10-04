@@ -1,71 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>jQuery Pin</title>
-
-    <meta charset="utf-8">
-    <meta name="description" content="A jQuery plugin for pinning elements within a container.">
-    <link href="css/bootstrap.yeti.min.css" rel="stylesheet">
-    
-    <!-- This is an example of jQuery.pin in use. Check the very bottom for the javascript. -->
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <section class="container clearfix">   
-        <div class="row">
-          <div class="right-col">
-            <div class="pinned note-container">
-              <div id = "navbar">
-                <div class="navbar navbar-default" role="navigation">
-                  <div class="container">
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                      <ul id = "insidepagenav" class="nav navbar-nav">
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href = "#about">About Me</a></li>
-                        <li><a href = "#resume">Resume</a></li>
-                        <li><a href = "#contact">Contact</a></li>
-                      </ul>
-                      <ul class="nav navbar-nav navbar-right">
-                        <li class="divider"></li>
-                        <li><a href="design.html">Design Portfolio</a></li>
-                        <li><a href="http://b-lichliter.tumblr.com/" target="_blank">Blog</a></li>
-                        <li><a href="https://github.com/BrianLichliter" target="_blank">Git</a></li>
-                        <li><a href="http://www.flickr.com/photos/93060454@N02/" target="_blank">Flickr</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- Include jQuery and jquery.pin -->
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="jquery.pin.js"></script>
-
-    <style> 
-      body {
-        padding-top: 500px;
-        padding-bottom: 1500px;
-      }
-    </style>
-
-
-    <!-- PIN ALL THE THINGS! -->
-    <script>
-      $(".pinned").pin({containerSelector: ".container", minWidth: 940});
-    </script>
-    <!-- That's all - pretty easy, right? -->
+  	<head>
+    	<title>Table</title>
+    	<meta charset="utf-8">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/testing.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<!-- This is an example of jQuery.pin in use. Check the very bottom for the javascript. -->
+  	</head>
+  	<body>
+    	<div class="container">
+    		<div id = "projectTable">
+	        	<div class="row projectTableRow">
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>        	
+	        	</div>
+	        	<div class="row projectTableRow">
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>        	
+	        	</div>
+	        	<div class="row projectTableRow">
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>
+	        		<div class = "col-md-3 cell">
+	        		</div>        	
+	        	</div>
+        	</div>
+    	</div>
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
